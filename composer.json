@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "devsrealm/seo_tool",
+    "description": "SEO Tool For My Laravel Applications",
     "keywords": [
-        ":vendor_name",
+        "devsrealm",
         "laravel",
-        "package_slug"
+        "seo_tool"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/devsrealm/seo_tool",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "The_Devsrealm_Guy",
+            "email": "faruq@devsrealmer@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Devsrealm\\SeoTool\\": "src",
+            "Devsrealm\\SeoTool\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Devsrealm\\SeoTool\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Devsrealm\\SeoTool\\SeoToolServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "SeoTool": "Devsrealm\\SeoTool\\SeoToolFacade"
             }
         }
     },

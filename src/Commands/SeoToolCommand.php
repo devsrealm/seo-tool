@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Devsrealm\SeoTool\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SeoToolCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'seo_tool';
 
     public $description = 'My command';
 
